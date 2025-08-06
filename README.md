@@ -1,8 +1,8 @@
 ## Custom RISC-V Processor
 
-<img width="400" height="600" alt="download" src="https://github.com/user-attachments/assets/f30d9dac-f40f-4ec5-9ea3-f86d7bd4c7d7" />
+<img width="800" height="1200" alt="download" src="https://github.com/user-attachments/assets/f30d9dac-f40f-4ec5-9ea3-f86d7bd4c7d7" />
 
-VEGA Core is a custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture. This project is ideal for students, researchers, and hobbyists interested in processor design, computer architecture, and FPGA prototyping.
+Custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture. This project is ideal for students, researchers, and hobbyists interested in processor design, computer architecture, and FPGA prototyping.
 
 ### Features
 
