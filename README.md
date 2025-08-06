@@ -1,10 +1,10 @@
-Custom RISC-V Processor
+## Custom RISC-V Processor
 
-![VEGA Core Pipeline](./download.png)
+![RISC-V]<img width="313" height="161" alt="download" src="https://github.com/user-attachments/assets/f30d9dac-f40f-4ec5-9ea3-f86d7bd4c7d7" />
 
 VEGA Core is a custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture. This project is ideal for students, researchers, and hobbyists interested in processor design, computer architecture, and FPGA prototyping.
 
-Features
+### Features
 
 - Fully functional RV32I base instruction set support
 - Designed using Verilog HDL with clean modular hierarchy
@@ -20,51 +20,42 @@ Features
 - Synthesizable and deployable on FPGA (target: PYNQ-Z2)
 - Compatible with GTKWave for waveform analysis
 
-Repository Structure
 
-├── rtl/           # Verilog source files (Core modules)
-├── tb/            # Testbenches for simulation
-├── fpga/          # FPGA constraint files and board mappings
-├── docs/          # Architecture diagrams, ISA reference, and PDFs
-├── scripts/       # Simulation and build scripts
-├── download.png   # Pipeline architecture image
-└── README.md      # Project overview and instructions
-
-Simulation & Verification
+### Simulation & Verification
 
 - Run simulations using Icarus Verilog or ModelSim.
 - Use GTKWave to view waveform outputs.
 - Testbenches include instruction sequences and corner cases.
 
-Example (using Icarus Verilog):
+### Example (using Icarus Verilog):
 
 iverilog -o cpu_tb tb/cpu_tb.v rtl/*.v
 vvp cpu_tb
 gtkwave dump.vcd
 
-FPGA Deployment (PYNQ-Z2)
+### FPGA Deployment (PYNQ-Z2)
 
-- Synthesis flow supported via Vivado
+- Synthesis flow supported via Open-source tools
 - Constraint file included for PYNQ-Z2 pin mapping
 - Load program memory with instruction hex files
 - UART/LEDs can be used to observe processor output
 
-Project Goals
+### Project Goals
 
-VEGA Core is developed to:
+Custom RISC-V is developed to:
 - Educate learners on real-world CPU architecture and design
 - Provide a foundation for experimenting with custom ISAs
 - Explore extensions such as RV32M, caching, hazard detection, forwarding, etc.
 - Enable hands-on prototyping using affordable FPGA platforms
 
-References
+### References
 
 - RISC-V Official Specs: https://riscv.org/specifications/
 - FPGA: PYNQ-Z2 Board: https://www.tul.com.tw/ProductsPYNQ-Z2.html
 
-License
+### License
 
 This project is open-sourced under the MIT License. See the LICENSE file for more information.
 
-💡 Contributions are welcome! Feel free to fork, enhance, and share your improvements to VEGA Core.
-"""
+ Contributions are welcome! Feel free to fork, enhance, and share your improvements to Custom RISC-V.
+
