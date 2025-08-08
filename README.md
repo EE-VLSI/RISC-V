@@ -294,6 +294,7 @@ Custom RISC-V is developed to:
 
 - RISC-V Official Specs: https://riscv.org/specifications/
 - FPGA: PYNQ-Z2 Board: https://www.tul.com.tw/ProductsPYNQ-Z2.html
+- RISC-v Full Course https://youtube.com/playlist?list=PLqPfWwayuBvN1JkJFR9G1nQGXsNdi5aZ-&si=wWCQ9C7U0I_-T2cV
 
 ### License
 
