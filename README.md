@@ -1,5 +1,6 @@
 ## Custom RISC-V Processor
 
+<img width="1029" height="610" alt="architecture" src="https://github.com/user-attachments/assets/a750da2b-7069-44df-817b-74dc7fcc36ed" />
 
 
 Custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture. This project is ideal for students, researchers, and hobbyists interested in processor design, computer architecture, and FPGA prototyping.
