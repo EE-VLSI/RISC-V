@@ -73,7 +73,7 @@ The RISC-V processor follows a **5-stage pipeline-like structure** :
 
 ## Repository Structure
 
-
+---
 
 ### References
 
@@ -83,6 +83,8 @@ The RISC-V processor follows a **5-stage pipeline-like structure** :
 - Patterson, D. A., & Waterman, A. (2017). The RISC-V Reader: An Open Architecture Atlas. Strawberry Canyon LLC
 - RISC-V Foundation. (2023). RISC-V Instruction Set Manual. https://riscv.org
 - Hennessy, J. L., & Patterson, D. A. (2017). Computer Architecture: A Quantitative Approach. Morgan Kaufmann.
+
+---
 
 ### License
 
