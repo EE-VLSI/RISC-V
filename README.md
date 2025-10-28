@@ -3,51 +3,77 @@
 <img width="1029" height="610" alt="architecture" src="https://github.com/user-attachments/assets/a750da2b-7069-44df-817b-74dc7fcc36ed" />
 
 
-Custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture. This project is ideal for students, researchers, and hobbyists interested in processor design, computer architecture, and FPGA prototyping.
+Custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture.
 
-### Features
+# 🧠 RISC-V Processor Design Project
 
-- Fully functional RV32I base instruction set support
-- Designed using Verilog HDL with clean modular hierarchy
-- Includes all essential components:
-  - Instruction Fetch Unit
-  - Decoder / Control Unit
+### 📘 Overview
+This repository contains the complete design and implementation of a **RISC-V based processor** developed as part of the VLSI design learning and implementation phase.  
+The goal of this project is to understand and build a **modular RISC-V CPU architecture** covering instruction fetch, decode, execute, memory, and write-back stages.
+
+---
+
+## 🏗️ Project Objectives
+- Design a **32-bit RISC-V processor** in Verilog HDL.  
+- Implement a modular structure including:
+  - Program Counter and Instruction Memory
   - Register File
   - ALU (Arithmetic Logic Unit)
-  - Branch Control Logic
+  - Control Unit
+  - Sign Extension Unit
   - Data Memory
-- Implements 5-stage pipelining: IF, ID, EX, MEM, WB
-- Verified through module-level and system-level testbenches
-- Synthesizable and deployable on FPGA (target: PYNQ-Z2)
-- Compatible with GTKWave for waveform analysis
+- Simulate the complete datapath and verify with testbenches.
+---
+
+## ⚙️ Architecture Overview
+The RISC-V processor follows a **5-stage pipeline-like structure** :
+
+1. **Instruction Fetch (IF)** – Fetches the instruction from memory.  
+2. **Instruction Decode (ID)** – Decodes opcode, reads registers, and generates control signals.  
+3. **Execute (EX)** – Performs ALU operations and branch evaluations.  
+4. **Memory Access (MEM)** – Handles load/store operations.  
+5. **Write Back (WB)** – Writes results back to the register file.
+
+---
+
+## 🧩 Modules Implemented
+
+| Module | Description | Status |
+|--------|--------------|--------|
+| **Program Counter** 
+| **Instruction Memory** 
+| **Register File** 
+| **ALU** 
+| **Sign Extension Unit** 
+| **Control Unit** 
+| **Data Memory** 
+| **Top-Level Integration** 
+| **Testbench**
+
+---
+
+## Features
+- Implements **RISC-V RV32I** instruction set subset  
+- Modular and reusable design  
+- Parameterized Verilog modules  
+- Synthesis-ready RTL  
+- Testbench and waveform verification  
+- Compatible with FPGA prototyping  
+
+---
+
+## Tools & Technologies
+- **HDL:** Verilog  
+- **Simulator:** Vcs / iverilog  
+- **Synthesis:** Synopsys Design Compiler  / yosys
+- **Backend (Future):** ICC2 / OpenROAD 
+- **Documentation:** Markdown + GitHub  
+
+---
+
+## 📂 Repository Structure
 
 
-### Simulation & Verification
-
-- Run simulations using Icarus Verilog or ModelSim.
-- Use GTKWave to view waveform outputs.
-- Testbenches include instruction sequences and corner cases.
-
-### Example (using Icarus Verilog):
-
-iverilog -o cpu_tb tb/cpu_tb.v rtl/*.v
-vvp cpu_tb
-gtkwave dump.vcd
-
-### FPGA Deployment (PYNQ-Z2)
-
-- Synthesis flow supported via Open-source tools
-- Constraint file included for PYNQ-Z2 pin mapping
-- Load program memory with instruction hex files
-- UART/LEDs can be used to observe processor output
-
-### Project Goals
-
-Custom RISC-V is developed to:
-- Educate learners on real-world CPU architecture and design
-- Provide a foundation for experimenting with custom ISAs
-- Explore extensions such as RV32M, caching, hazard detection, forwarding, etc.
-- Enable hands-on prototyping using affordable FPGA platforms
 
 ### References
 
