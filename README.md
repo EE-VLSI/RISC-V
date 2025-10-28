@@ -5,15 +5,15 @@
 
 Custom-designed 32-bit RISC-V processor developed using Verilog HDL. Built from the ground up as part of an educational and research-focused initiative, it supports the RV32I base instruction set and features a clean, modular, and pipelined architecture.
 
-# 🧠 RISC-V Processor Design Project
+# RISC-V Processor Design Project
 
-### 📘 Overview
+### Overview
 This repository contains the complete design and implementation of a **RISC-V based processor** developed as part of the VLSI design learning and implementation phase.  
 The goal of this project is to understand and build a **modular RISC-V CPU architecture** covering instruction fetch, decode, execute, memory, and write-back stages.
 
 ---
 
-## 🏗️ Project Objectives
+## Project Objectives
 - Design a **32-bit RISC-V processor** in Verilog HDL.  
 - Implement a modular structure including:
   - Program Counter and Instruction Memory
@@ -25,7 +25,7 @@ The goal of this project is to understand and build a **modular RISC-V CPU archi
 - Simulate the complete datapath and verify with testbenches.
 ---
 
-## ⚙️ Architecture Overview
+## Architecture Overview
 The RISC-V processor follows a **5-stage pipeline-like structure** :
 
 1. **Instruction Fetch (IF)** – Fetches the instruction from memory.  
@@ -36,7 +36,7 @@ The RISC-V processor follows a **5-stage pipeline-like structure** :
 
 ---
 
-## 🧩 Modules Implemented
+## Modules Implemented
 
 | Module | Description | Status |
 |--------|--------------|--------|
@@ -71,7 +71,7 @@ The RISC-V processor follows a **5-stage pipeline-like structure** :
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 
 
